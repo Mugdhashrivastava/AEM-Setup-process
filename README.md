@@ -38,7 +38,13 @@ The AEM Sync extension in vs code will help you to easily export/import your cod
 
 ## Set your project code base in VS code 
 ### Download GitHub desktop or you can use commands too
-Clone the git repository from the main branch of the project and open that folder in vs code
+Clone the git repository from the main branch of the project and open that folder in vs code 
+
+# Running commands 
+In your project type this command 
+```bash
+mvn clean install -PautoInstallSinglePackage
+```
 
 
 
