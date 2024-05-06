@@ -46,6 +46,17 @@ In your project type this command
 mvn clean install -PautoInstallSinglePackage
 ```
 
+Inside your project( for unity water its ui frontend app) type this command everytime you make changes to code and export code to aem type this command 
+```bash
+npm run dev
+```
 
+### before doing npm run dev
+Write your own code 
+Go to the folder ui apps >client-lib>client-lib-sites then right click and export to aem 
+-  client lib in aem , the Client Library functionality allows you to manage and serve CSS, JavaScript, and other assets efficiently. Client libraries are collections of JavaScript, CSS, and image files that you can organize and serve as a single unit.
+
+## Remember to push your code in github in YOUR BRANCH(not main) and raise pull request to merge in main branch every time you update code in any project you work in
+## Remember to pull code from main branch every morning to avoid conflicts due to change in code of every person,because at the end of the day main code is right code after all updation
 
 
